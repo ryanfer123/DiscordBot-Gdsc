@@ -19,6 +19,6 @@ Code Explaination in bullet points
 1. Firstly I have initialised the project using npm init -y
 2. Installed discord.py and gemini API
 3. created an .env file to use the gemini api and my discord bot token
-4. 
+4. used docker compose for lavalink
 
    
