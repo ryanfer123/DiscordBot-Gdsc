@@ -1,6 +1,12 @@
 # DiscordBot-Gdsc
 GDSC enrollments for python subdomain
 
+Prerequisites
+1.Python 3.8 or higher
+2.Docker, for lavalink
+3.Git
+4.Code editor, I used Pycharm 
+
 Code Explaination in bullet points
 
 1. Went to the discord developer application website [Discord Developer Portal](https://discord.com/developers/applications)
@@ -20,5 +26,8 @@ Code Explaination in bullet points
 2. Installed discord.py and gemini API
 3. created an .env file to use the gemini api and my discord bot token
 4. used docker compose for lavalink
+5. I tried cloning the GitHub repository but there were some issues in pushing commits so i have directly uploaded my project files
+6. Created a python environment
+7. Created a python file Discord_botgdsc.py with the main code
 
    
