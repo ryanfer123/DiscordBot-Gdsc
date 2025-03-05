@@ -1,34 +1,85 @@
 # DiscordBot-Gdsc
-GDSC enrollments for python subdomain
 
-Prerequisites
-1.Python 3.12 
-2.Git
-3.Code editor, I used Pycharm 
+A powerful, modular **Discord Bot** built using **Python** and **discord.py** for GDSC's Python subdomain.
 
-Code Explaination in bullet points
+## 🚀 Features
 
-1. Went to the discord developer application website [Discord Developer Portal](https://discord.com/developers/applications)
-2. Clicked “New Application”, gave it a name **AI Assistant** , and created it.
-3. In your application, go to the “Bot” tab
-4. Copied my Bot Token.
-5. Go to OAuth2 -> URL Generator:
-	•	Under Scopes, select bot.
-	•	Under Bot Permissions, chose the permissions my bot needs (like Send Messages, Read Messages, etc).
+- 🤖 AI Chatbot (using Gemini API)
+- ⏰ Reminders
+- 📊 Polls
+- 🎶 Music (via Wavelink)
+- 👋 Welcome Messages
+- 📝 AI-powered Summaries
+- 🗄️ SQLite database with `aiosqlite`
 
-	->	Copied the generated URL and pasted it in my browser to invite the bot to my Discord server.(I made a discord server inorder to test it).
+## ⚙️ Setup Instructions
 
-**For the next steps I have used Pycharm,**
-**Terminal commands are in bash**
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/ryanfer123/DiscordBot-Gdsc.git
+cd DiscordBot-Gdsc
+```
 
-1. Firstly I have initialised the project using npm init -y
-2. Installed discord.py and gemini API
-3. created an .env file to use the gemini api and my discord bot token
-4. used docker compose for lavalink
-5. I tried cloning the GitHub repository but there were some issues in pushing commits so i have directly uploaded my project files
-6. Created a python environment
-7. Created a python file Discord_botgdsc.py with the main code
-8. Installed some packages likes discord.py for discord interaction,SQlite for reminders and polls, Tried to use Gemini also
-9. 
+### 2️⃣ Create and Activate Virtual Environment
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
-   
+### 3️⃣ Install Requirements
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Create `.env` file
+In the project root, add a `.env` file with your secrets:
+```env
+DISCORD_TOKEN=your_discord_bot_token_here
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+## Disclaimer ⚠️
+I couldn't upload the .env file due to the tokens present in it (discord, gemini)
+So you will have to generate your own tokens by creating your own .env file.
+
+### 5️⃣ Run the Bot
+```bash
+python bot.py
+```
+
+## How I Built It
+
+- Followed **modular architecture** using **Cogs** for clean and scalable code.
+- Integrated **async database handling** with `aiosqlite`.
+- Used **Gemini API** for smart AI responses.
+- Used **Discord Token** for bot integration.
+- Used **Wavelink** for music.(Found this out on the web) 
+
+## 📂 Project Structure
+```
+discord-bot/
+│
+├── cogs/
+│   ├── ai.py
+│   ├── music.py
+│   ├── polls.py
+│   ├── reminders.py
+│   └── welcome.py
+│
+├── bot.py
+├── bot_database.db
+├── requirements.txt
+├── .env (not included in submission)
+|── .gitignore
+```
+
+## 📌 Future Improvements
+- Slash command support.
+- Web dashboard.
+- More AI integrations.
+- Better error handling.
+
+## 📝 License
+[MIT](LICENSE)
+
+---
