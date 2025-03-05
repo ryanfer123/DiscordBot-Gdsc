@@ -2,10 +2,9 @@
 GDSC enrollments for python subdomain
 
 Prerequisites
-1.Python 3.8 or higher
-2.Docker, for lavalink
-3.Git
-4.Code editor, I used Pycharm 
+1.Python 3.12 
+2.Git
+3.Code editor, I used Pycharm 
 
 Code Explaination in bullet points
 
@@ -30,7 +29,6 @@ Code Explaination in bullet points
 6. Created a python environment
 7. Created a python file Discord_botgdsc.py with the main code
 8. Installed some packages likes discord.py for discord interaction,SQlite for reminders and polls, Tried to use Gemini also
-9. Tried to Use Wavelink and Lavalink for robust music streaming (found this on the web)
-
+9. 
 
    
