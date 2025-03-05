@@ -73,13 +73,10 @@ discord-bot/
 |── .gitignore
 ```
 
-## 📌 Future Improvements
-- Slash command support.
-- Web dashboard.
-- More AI integrations.
-- Better error handling.
 
 ## 📝 License
 [MIT](LICENSE)
+
+## Created By Ryan Fernandes
 
 ---
