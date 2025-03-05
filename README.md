@@ -29,5 +29,8 @@ Code Explaination in bullet points
 5. I tried cloning the GitHub repository but there were some issues in pushing commits so i have directly uploaded my project files
 6. Created a python environment
 7. Created a python file Discord_botgdsc.py with the main code
+8. Installed some packages likes discord.py for discord interaction,SQlite for reminders and polls, Tried to use Gemini also
+9. Tried to Use Wavelink and Lavalink for robust music streaming (found this on the web)
+
 
    
