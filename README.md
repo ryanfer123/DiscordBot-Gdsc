@@ -13,7 +13,7 @@ Code Explaination in bullet points
 
 	->	Copied the generated URL and pasted it in my browser to invite the bot to my Discord server.(I made a discord server inorder to test it).
 
-**For the next steps I have used Visual Studio Code**
+**For the next steps I have used Pycharm,**
 **Terminal commands are in bash**
 
 1. Firstly I have initialised the project using npm init -y
