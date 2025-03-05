@@ -78,5 +78,5 @@ discord-bot/
 [MIT](LICENSE)
 
 ## Created By Ryan Fernandes
-
+- CSE Core @ VIT Vellore
 ---
