@@ -1,8 +1,8 @@
 # DiscordBot-Gdsc
 
-A powerful, modular **Discord Bot** built using **Python** and **discord.py** for GDSC's Python subdomain.
+A powerful, modular **Discord Bot** built using **Python** and **discord.py** for the GDSC Python subdomain.
 
-## 🚀 Features
+## Features 🎉
 
 - 🤖 AI Chatbot (using Gemini API)
 - ⏰ Reminders
