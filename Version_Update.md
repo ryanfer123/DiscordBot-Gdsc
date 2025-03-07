@@ -2,6 +2,7 @@
 
 ## Version 1.2 (7/3/25)
 1. Tested Music.py
+2. Updated reminders.py to display command when !help is called on discord
 
 ## Version 1.1 (6/3/25)
 1. Tested AI.py
