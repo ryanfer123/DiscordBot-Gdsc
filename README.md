@@ -1,6 +1,6 @@
-# DiscordBot-Gdsc
+# DiscordBot-Gdsc 
 
-A powerful, modular **Discord Bot** built using **Python** and **discord.py** for the GDSC Python subdomain.
+A powerful, modular **Discord Bot** built using **Python** and **Discord.py** for the GDSC Python subdomain.
 
 ## Features 🎉
 
@@ -12,7 +12,7 @@ A powerful, modular **Discord Bot** built using **Python** and **discord.py** fo
 - 📝 AI-powered Summaries
 - 🗄️ SQLite database with `aiosqlite`
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -47,7 +47,7 @@ So you will have to generate your own tokens by creating your own .env file.
 python bot.py
 ```
 
-## How I Built It
+## How I Built It 🔨
 
 - Followed **modular architecture** using **Cogs** for clean and scalable code.
 - Integrated **async database handling** with `aiosqlite`.
@@ -55,7 +55,7 @@ python bot.py
 - Used **Discord Token** for bot integration.
 - Used **Wavelink** for music.(Found this out on the web) 
 
-## 📂 Project Structure
+## Project Structure 🗂️
 ```
 discord-bot/
 │
