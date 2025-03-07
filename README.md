@@ -4,7 +4,7 @@ A powerful, modular **Discord Bot** built using **Python** and **discord.py** fo
 
 ## Features 🎉
 
-- 🤖 AI Chatbot (using Gemini API)
+- 🤖 AI Chatbot (using Gemini 2.0 Flash API)
 - ⏰ Reminders
 - 📊 Polls
 - 🎶 Music (via Wavelink)
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ```
 
 ### 4️⃣ Create `.env` file
-In the project root, add a `.env` file with your secrets:
+In the project root, add a `.env` file with your TOKENS:
 ```env
 DISCORD_TOKEN=your_discord_bot_token_here
 GEMINI_API_KEY=your_gemini_api_key_here
