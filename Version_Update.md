@@ -11,3 +11,4 @@
 ## Version 1 (5/3/25)
 1. Organised the code using Cogs (Modules).
 2. Tested reminders.py ,polls.py and welcome.py cogs.
+---
