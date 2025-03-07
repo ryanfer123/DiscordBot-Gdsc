@@ -1,4 +1,4 @@
-# Updates Mades 🛠️
+# Updates Made 🛠️
 
 ## Version 1.2 (7/3/25)
 1. Tested Music.py
