@@ -7,6 +7,7 @@ class Reminders(commands.Cog):
 
     @commands.command()
     async def remind(self, ctx, time: str, *, message: str):
+        """Set a reminder: !remind <time> <message>"""
         # Handle parsing and DB logic here
         await ctx.send(f"Reminder set for {time}: {message}")
 
