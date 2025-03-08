@@ -7,7 +7,7 @@ A powerful, modular **Discord Bot** built using **Python** and **Discord.py** fo
 - 🤖 AI Chatbot (using Gemini 2.0 Flash API)
 - ⏰ Reminders
 - 📊 Polls
-- 🎶 Music (via Wavelink)
+- 🎶 Music (Not working as of yet)
 - 👋 Welcome Messages
 - 📝 AI-powered Summaries
 - 🗄️ SQLite database with `aiosqlite`
